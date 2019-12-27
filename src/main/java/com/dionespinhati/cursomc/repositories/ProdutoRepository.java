@@ -1,12 +1,11 @@
 package com.dionespinhati.cursomc.repositories;
+import com.dionespinhati.cursomc.domain.Produto;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
-import com.dionespinhati.cursomc.domain.Categoria;
-
 
 @Repository
-public interface CategoriaRepository extends JpaRepository<Categoria, Integer>{
-	
-	
+public interface ProdutoRepository extends JpaRepository<Produto, Integer>{
+
+
 }
